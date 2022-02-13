@@ -12,4 +12,14 @@ public class Principal extends JFrame implements ActionListener{
   private JComboBox comboDepartamento, comboAntiguedad;
   private JScrollPane scrollpane1;
   private JTextArea textarea1;
+
+  public Principal(){
+    setLayout(null);
+    setTitle("Pantalla principal");
+    getContentPane().setBackground(new Color(255,0,0));
+    setIconImage(new ImageIcon(getClass().getResource("images/icon.png")).getImage());
+
+    mb = new JMenuBar();
+    mb.setBackground(new Color(255,0,0));
+    setJMenuBar(mb);
 }
