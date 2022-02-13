@@ -10,3 +10,4 @@ public class Licencia extends JFrame implements ActionListener, ChangeListener{
   private JButton boton1, boton2;
   private JScrollPane scrollpane1;
   private JTextArea textarea1;
+}
