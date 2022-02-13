@@ -10,4 +10,10 @@ public class Licencia extends JFrame implements ActionListener, ChangeListener{
   private JButton boton1, boton2;
   private JScrollPane scrollpane1;
   private JTextArea textarea1;
+
+  public Licencia(){
+    setLayout(null);
+    setTitle("Licencia de uso");
+    setIconImage(new ImageIcon(getClass().getResource("images/icon.png")).getImage());
+  }  
 }
